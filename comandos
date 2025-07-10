@@ -1,0 +1,40 @@
+¡Hola! Te hago una lista de los comandos más útiles de tmux:
+
+**Comandos básicos del sistema:**
+- `tmux` - Iniciar nueva sesión
+- `tmux new -s nombre` - Crear sesión con nombre específico
+- `tmux ls` - Listar sesiones activas
+- `tmux attach -t nombre` - Conectarse a una sesión
+- `tmux kill-session -t nombre` - Terminar una sesión
+
+**Comandos dentro de tmux (prefijo Ctrl+b):**
+
+**Sesiones:**
+- `Ctrl+b d` - Desconectarse de la sesión (detach)
+- `Ctrl+b s` - Listar y cambiar entre sesiones
+- `Ctrl+b $` - Renombrar sesión actual
+
+**Ventanas:**
+- `Ctrl+b c` - Crear nueva ventana
+- `Ctrl+b n` - Siguiente ventana
+- `Ctrl+b p` - Ventana anterior
+- `Ctrl+b número` - Ir a ventana específica
+- `Ctrl+b ,` - Renombrar ventana actual
+- `Ctrl+b &` - Cerrar ventana actual
+
+**Paneles:**
+- `Ctrl+b %` - Dividir ventana verticalmente
+- `Ctrl+b "` - Dividir ventana horizontalmente
+- `Ctrl+b flechas` - Navegar entre paneles
+- `Ctrl+b x` - Cerrar panel actual
+- `Ctrl+b z` - Maximizar/minimizar panel
+- `Ctrl+b {` - Mover panel hacia la izquierda
+- `Ctrl+b }` - Mover panel hacia la derecha
+
+**Otros útiles:**
+- `Ctrl+b [` - Entrar en modo copia (navegación)
+- `Ctrl+b ]` - Pegar contenido copiado
+- `Ctrl+b ?` - Mostrar ayuda con todos los comandos
+- `Ctrl+b :` - Entrar en modo comando
+
+¿Te sirve esta lista o necesitas que profundice en algún comando específico?
